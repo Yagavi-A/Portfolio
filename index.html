@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>User Profile</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                
+            }
+
+        .header {
+            text-align: center;
+            background-color: rgb(114, 149, 179);
+            display: flex;
+        }
+
+        .header img{
+            max-width: 200px;
+            max-height:200px ;
+            height: auto;
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        .row1{
+            width: 50%;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .row2{
+            width: 50%;
+            text-align: right;
+            padding-right: 20px;
+            
+        }
+        
+        .row2 p{
+            font-weight: bold;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .education{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .col1{
+            background-color: aliceblue;
+            margin: 2%;
+            border-radius: 25px;
+            text-align: center;
+            width: 80%;
+            height: 130px;
+            
+        }
+
+        .education .col1:hover {
+            background-color: rgb(114, 149, 179);
+        }
+
+        .education button{
+            border-radius: 25px;
+            background-color: rgb(196, 213, 212);
+            
+        }
+
+        .main .col:hover{
+            background-color: rgb(114, 149, 179);
+            transform: scale(1.1);
+        }
+
+        .row{
+            display: flex;
+            text-align: center;
+            margin: 5%;
+            
+        }
+
+        .col{
+            background-color: aliceblue;
+            width: 30%;
+            margin:2%;
+            border-radius: 25px;
+        }
+
+        .col img{
+            max-width: 100%;
+        }
+
+        .info .col{
+            width: 50%;
+        }
+
+        .info{
+            
+            background-color: rgb(114, 149, 179);
+            
+        }
+
+        .info h2{
+            text-align: center;
+        }
+
+        .info .col2{
+            width: 50%;
+            background-color: rgb(54, 57, 58);
+            margin:2%;
+            border-radius: 25px;
+            color: aliceblue;
+        }
+
+        .header img {
+              max-width: 100%;
+              height: auto;
+              border-radius: 50%;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="row1">
+                <img src= "statics/Profile.jpeg" alt="Profile">
+            </div>
+            <div class="row2">
+                <h2>Yagavi A</h2>
+                <p> UX Enginner Intern<br>
+                DevRev, Chennai</p>
+            </div>
+        </div>
+        <br><br>
+
+        <h1>Education / Courses</h1>
+        <div class="education">
+            <div class="row3">
+            <div class="col1"> 
+                <h3>B.E Computer Science</h3>
+                <p>Currently Pursuing B.E CSE in Sona College Of Technology, Salem.</p>
+                <button>2020 - 2024</button>
+            </div>
+            <div class="col1"> 
+                <h3>Data Analytics Course</h3>
+                <p>Done a Data Analtics Google certification course in online. </p>
+                <button>April 2023</button>
+            </div>
+            </div>
+            <div class="row3">
+            <div class="col1"> 
+                <h3>Social Network Course</h3>
+                <p>Successfully completed Nptel Social network course and an elite performer. </p>
+                <button>October 2022</button>
+            </div>
+            <div class="col1">
+                <h3>Content and Copywriting Pro</h3>
+                <p> Completed a 3 months course with Terribly Tiny tales</p>
+                <button>March 2021- June 2023</button>
+            </div>
+            </div>
+            <div class="row3">
+            <div class="col1">
+                <h3> C Programming </h3>
+                <p>Successfully completed C Programming course with MyCaptain</p>
+                <button>Jan 2021</button>
+            </div>
+            <div class="col1">
+                <h3>Web Development</h3>
+                <p>Successfully completed Web Development course with Mycaptain</p>
+                <button>Dec 2020</button>
+            </div>
+            </div>
+            </div>
+        </div>
+        <br><br>
+
+        <h1>Projects/Experience</h1>
+        <div class="main">
+            <div class="row">
+                <div class="col">
+                    <h3>Flight Ticket Booking</h3>
+                    <img src="statics/flight.png" alt="Project">
+                    <p>This Project is done by using HTML, CSS, Flask, python and Firebase. </p>
+                </div>
+                <div class="col">
+                    <h3>Library Management System</h3>
+                    <img src="statics/library.png" alt="Project">
+                    <p>This Project is done by using MERN Stack.</p>
+                </div>
+                <div class="col">
+                    <h3>OTP Veification</h3>
+                    <img src="statics/otp.png" alt="Project">
+                    <p>This Project is done by HTML, CSS, Javascript and Firebase.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Movie Ticket Booking</h3>
+                    <img src="statics/movie.png" alt="Project">
+                    <p>This Project is done by using MERN Stack.</p>
+                </div>
+                <div class="col">
+                    <h3>Sales Prediction</h3>
+                    <img src="statics/sales.png" alt="Project">
+                    <p>This Project is done by using Angular, Flask, Python and Machine Learning.</p>
+                </div>
+                <div class="col">
+                    <h3>Car Rental Application</h3>
+                    <img src="statics/car.png" alt="Project">
+                    <p>This Project is done by Using MERN Stack.</p>
+                </div>
+            </div>
+        </div>
+        <h1> About Me</h1>
+        <div class="info">
+            <div class="row">
+                <div class="col">
+                <h2> Personal Details </h2>
+                <ul>
+                    <li>Name: Yagavi A</li>
+                    <li>DOJ: 07/11/2002</li>
+                    <li>Location: Chennai</li>
+                    <li>Status: Single</li>
+                    <li>Mail ID: yagavi072002@gmail.com</li>
+                </ul>
+                </div>
+                <div class="col2">
+                <h2>SkillPot</h2>
+                <ul>
+                    <li>MERN Stack</li>
+                    <li>Flask Framework</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Firebase</li>
+                    <li>MEAN Stack</li>
+                    <li>Machine Learning</li>
+                </ul>
+                </div>
+        </div>
+        </div>
+        <div class="footer">
+            <h3>@copyright 2023</h3>
+        </div>
+
+    </body>
+</html>
